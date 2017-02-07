@@ -16,6 +16,7 @@ for item in "${files[@]}"; do
   fi
 done
 
+ls -al
 sed -i '' -e "s/nightly/${TRAVIS_TAG}/" $(basename $TRAVIS_REPO_SLUG).php
 
 cd ..
