@@ -16,8 +16,8 @@ for item in "${files[@]}"; do
   fi
 done
 
-ls -al
-sed -i '' -e "s/nightly/${TRAVIS_TAG}/" "$(basename $TRAVIS_REPO_SLUG).php"
+plugin="$(basename $TRAVIS_REPO_SLUG).php"
+sed -i '' -e "s/nightly/${TRAVIS_TAG}/" $plugin
 
 cd ..
 zip -r $(basename $TRAVIS_REPO_SLUG).zip $(basename $TRAVIS_REPO_SLUG) -x *.git*
