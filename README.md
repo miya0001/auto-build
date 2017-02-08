@@ -1,4 +1,4 @@
-# Builds WordPress Plugin On Travis CI
+# Build WordPress Plugin On Travis CI
 
 This is a simple shell script that builds a WordPress plugin on Travis CI for GitHub releases API.
 
