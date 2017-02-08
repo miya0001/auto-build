@@ -3,8 +3,7 @@
 This is a simple shell script that builds a WordPress plugin.
 
 * Run composer install.
-* Remove some files that weren't needed.
-* Change the version number in the plugin header to Tag.
+* Remove some files that weren't needed listed in `.distignore`.
 * Generate a zip file.
 
 ```
