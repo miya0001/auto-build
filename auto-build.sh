@@ -2,7 +2,7 @@
 
 set -eux
 
-composer install
+composer install --no-dev
 
 if [ ! -e .distignore ]; then
   curl https://raw.githubusercontent.com/miya0001/auto-build/master/.distignore > .distignore
