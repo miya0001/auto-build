@@ -2,6 +2,7 @@
 
 set -eux
 
+phpenv config-rm xdebug.ini
 composer install --no-dev
 
 if [ ! -e .distignore ]; then
