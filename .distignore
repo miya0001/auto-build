@@ -7,7 +7,6 @@
 .gitlab-ci.yml
 .travis.yml
 Gruntfile.js
-README.md
 Thumbs.db
 behat.yml
 bin
