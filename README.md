@@ -3,7 +3,7 @@
 This is a simple shell script that builds a WordPress plugin on Travis CI for GitHub releases API.
 
 * Run composer install.
-* Remove some files that weren't needed listed in `.distignore`.
+* Remove unused files listed in `.distignore`.
 * Generate a zip file.
 
 ```
