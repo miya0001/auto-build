@@ -5,6 +5,7 @@
 .editorconfig
 .gitignore
 .gitlab-ci.yml
+.plugin
 .travis.yml
 Gruntfile.js
 Thumbs.db
